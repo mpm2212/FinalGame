@@ -5,9 +5,8 @@ public enum Obviousness { NotObvious, Obvious }
 
 public class Anomaly : ScriptableObject
 {
-    public string anomalyName;
-    public GameObject prefab;
+    public string name;
+    public GameObject anomalyObject;
     public Scareiness scareiness; 
     public Obviousness obviousness;
-    public bool hasBeenSeen = false;
 }
