@@ -7,6 +7,6 @@ public class Anomaly : ScriptableObject
 {
     public string name;
     public GameObject anomalyObject;
-    public Scareiness scareiness; 
+    //public Scareiness scareiness; 
     public Obviousness obviousness;
 }
